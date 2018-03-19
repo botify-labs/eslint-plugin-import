@@ -1,7 +1,7 @@
 {
-  "name": "eslint-import-resolver-webpack",
-  "version": "0.8.4",
-  "description": "Resolve paths to dependencies, given a webpack.config.js. Plugin for eslint-plugin-import.",
+  "name": "botify-eslint-import-resolver-webpack",
+  "version": "0.8.5",
+  "description": "Resolve paths to dependencies, given a webpack.config.js. Plugin for eslint-plugin-import. Forked from Ben Mosher's repo to create a new release used at Botify.",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha -t 5s",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benmosher/eslint-plugin-import.git"
+    "url": "git+https://github.com/botify-labs/eslint-plugin-import.git"
   },
   "keywords": [
     "eslint-plugin-import",
@@ -22,7 +22,7 @@
     "modules",
     "webpack"
   ],
-  "author": "Ben Mosher (me@benmosher.com)",
+  "author": "Ben Mosher (me@benmosher.com) - Forked at Botify",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/benmosher/eslint-plugin-import/issues"
